@@ -20,7 +20,7 @@ const Section_Top = () => {
             <Block_Wide purple left image={imagewideleft} text={sectionText} />  
             <Block_Main image={image} text={sectionText} />
         
-            {/* <Block_Main cnumber text={sectionText} />*/}
+            {/* <Block_Main number text={sectionText} />*/}
             <Block_Side image={imageside} text={sectionText} />
             <Block_Side image={imageside} text={sectionText} />
             </div>
