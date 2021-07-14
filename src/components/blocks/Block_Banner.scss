@@ -1,0 +1,77 @@
+.block-article{
+    margin-bottom: 2.4rem;
+    margin-top: 2rem;
+    h1{
+        height: 15.2rem;
+        width: 33.5rem;
+        color: #180624;
+        font-family: $primary-font;
+        font-size: 2.8rem;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 3.8rem;
+    }
+    button{
+        height: 2.7rem;
+        color:white;
+        border:none;
+        margin-left:3.5rem;
+        font-weight: bold;
+        width: 4.8rem;
+        font-size: 1.4rem;
+        border-radius: 1.35rem;
+        background-color: #511378;
+    }
+    &-author{
+        display:flex;
+        align-items: center;
+        margin-top: 3rem;
+        img{
+            margin-right: 1.6rem;
+        }
+    }
+    &-date{
+        font-family: $primary-font;
+        color: #180624;  
+        font-family: $primary-font; 
+        h2{
+            height: 2.8rem;
+            width: 14.2rem;      
+            font-size: 2rem;
+            font-weight: bold;
+            letter-spacing: 0;
+            line-height: 2.8rem;
+        }
+        h3{
+            height: 3rem;
+            width: 17.1rem;
+            font-size: 1.8rem;
+            letter-spacing: 0;
+            font-weight:400;
+            line-height: 3rem;
+        }
+    }
+}
+
+@media(min-width:1300px){
+    .block-article{
+        margin-bottom: 2.4rem;
+        margin-top: 5.8rem;
+        button{
+            height: 2.4rem;
+            margin-left:0rem;
+            font-weight: bold;
+            width: 5.4rem;
+            margin-bottom:1.6rem;
+            font-size: 1.2rem;
+        }
+        h1{
+           font-size:4rem;
+           width:88.5rem;
+           letter-spacing: .05rem;
+           line-height: 5.6rem;
+           margin-bottom:-1rem;
+        }
+        }
+}
+

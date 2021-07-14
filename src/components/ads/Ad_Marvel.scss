@@ -1,0 +1,29 @@
+.ad{
+    display:none
+}
+
+@media(min-width:1300px){
+    .ad{
+        display:block;
+        background-color:#EDEDED;
+        width:100vw;
+        height:29.6rem;
+        h1{ 
+            padding:1rem;
+            font-size:1.2rem;
+            text-align: center;
+            font-family:'Roboto';
+            color:#333330;
+            letter-spacing:0;
+            line-height: 1.6rem;
+        }
+        &-image{
+            width:97rem;
+            &-container{
+                display:flex;
+                justify-content: center;
+            }
+      }  
+    }
+    
+}

@@ -1,0 +1,100 @@
+.block-main{
+    width:34.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.01);
+    border-radius: 1.52rem;
+    display:flex;
+    height:19.5rem;
+    padding-top:2rem;
+    border-radius:1.4rem;
+    margin-bottom:1rem;
+
+    margin-top: 2rem;
+    background-color: white;
+    flex-direction: row-reverse;
+img{
+  padding-top: 3.4rem;
+  padding-right:2rem;
+}
+&-text{
+    padding:0em 2.1em;
+    font-family:$primary-font;      
+}
+&-food-desktop{
+    background-color: $color-purple;
+    color:white;
+    width:6.1rem;
+    border:none;
+    padding:.3em 1rem .2rem 1rem;
+    border-radius: 1.35rem;
+    height:2.7rem;
+    font-size:1.4rem;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    position:relative;
+    font-family:$primary-font;
+    font-weight:bold
+}
+h1{
+    letter-spacing: .01rem;
+    word-spacing: .18rem;
+    width: 22.5rem;
+    margin-bottom: 1.04rem;
+    color: #180624;
+    padding-top:.1rem;
+    font-family: $primary-font;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 24px;
+}
+span{
+    margin-bottom: 1em;
+    color:#626262;
+    line-height: 22px;
+    font-weight:normal;
+    font-size:1.4rem;
+}
+
+}
+
+@media (min-width:600px){
+    .block-main{
+        justify-content: flex-start;
+        margin-top:2em;
+        margin-left: 2rem;
+        margin-bottom:0em;
+    }
+}
+
+@media (min-width:1300px){
+.block-main{
+    justify-content: flex-start;
+    margin-top:0em;
+    margin-left: 0rem;
+    margin-bottom:0em;
+    width:30rem;
+    border-radius: 1.52rem;
+    display:flex;
+    padding-top:0rem;
+    height:37rem;
+    flex-direction: column;
+img{
+    padding-right:0rem;
+    padding-top: 0rem;
+    display:block;
+    margin-bottom: -1.5em;
+}
+&-food-desktop{
+    padding:.3em .9rem .3rem 1rem;
+    height:2.4rem;
+    width:5.4rem;
+    bottom:2.9rem;
+    margin-bottom: 1rem;
+    font-size:1.2rem;
+}
+h1{
+    width: 25.0rem;
+}
+}
+}
+   

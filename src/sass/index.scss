@@ -1,0 +1,47 @@
+// variables and default css
+@import "_reboot";
+@import "_variables";
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:regular,bold,italic&subset=latin,latin-ext');
+
+// components - MAIN
+@import "../components/Title.scss";
+@import "../components/Layout.scss";
+@import "../components/Navbar.scss";
+@import "../components/Footer.scss";
+@import "../components/Searchbar.scss";
+
+// components-Ads
+@import "../components/ads/Ad_Farm.scss";
+@import "../components/ads/Ad_Marvel.scss";
+@import "../components/ads/Ad_Disney.scss";
+@import "../components/ads/Ad_Farm_Small.scss";
+
+// components - BLOCKS
+@import "../components/blocks/Block_Main.scss";
+@import "../components/blocks/Block_Wide.scss";
+@import "../components/blocks/Block_Text.scss";
+@import "../components/blocks/Block_Side.scss";
+@import "../components/blocks/Block_Video.scss";
+@import "../components/blocks/Block_Social.scss";
+@import "../components/blocks/Block_Banner.scss";
+@import "../components/blocks/Block_Foodcast.scss";
+@import "../components/blocks/Block_Paragraph.scss";
+
+//coomponents - SECTION-BLOCKS - PAGEONE
+@import "../components/sections/page-one/Section_Top.scss";
+@import "../components/sections/page-one/Section_News.scss";
+@import "../components/sections/page-one/Section_Videos.scss";
+@import "../components/sections/page-one/Section_Podcasts.scss";
+@import "../components/sections/page-one/Section_Trending.scss";
+@import "../components/sections/page-one/Section_Happening.scss";
+@import "../components/sections/page-one/Section_Entertainment.scss";
+
+//components - SECTION-BLOCKS - PAGETWO
+@import "../components/sections/page-two/Section_Article.scss";
+@import "../components/sections/page-two/Section_Extended.scss";
+
+//pages
+@import "../pages/pageTwo.scss";

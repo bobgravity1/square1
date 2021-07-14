@@ -1,0 +1,167 @@
+.block-wide{
+    background-color: white;
+    display:flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:34.5rem;
+    height:45.2rem;
+    border-radius:1.4rem;
+    margin-top:2em;
+    margin-bottom: 1rem;
+    font-family: $primary-font;
+ &-image{
+     margin-top: 2.3rem;
+ }
+button{
+    width:5.4rem;
+    height:2.4rem;
+    border-radius: 12px;
+    border:none;
+    font-weight: bold;
+    font-family: $primary-font;
+    font-size:1.2rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;  
+    margin-top:2rem;  
+}
+h1{   
+    letter-spacing: .02rem;
+    word-spacing: .29rem;
+    width: 35rem;
+    margin-bottom: 1rem;
+    color: #180624;
+    font-size: 2rem;
+    padding: 0em 2rem;
+    font-weight: bold;
+    line-height:2.8rem;        
+}
+span{
+    padding-left:2rem;
+    line-height: 22px;
+    color:#626262;
+    font-size:1.4rem;
+    font-weight: lighter;
+}
+.purple-wide-image{
+    padding-right: 0rem;
+}
+}
+
+.white-button{
+    background-color: white;
+    color:$color-purple
+}   
+.purple-button{
+    background-color: $color-purple;
+    color:white;
+}  
+
+// conditional classes - React passes in props to specifit
+.left{
+    flex-direction: row-reverse;
+}
+.purple{
+    background-color: $color-purple;
+    h1, span{
+        color:white;
+    }
+}   
+.text-right{
+    margin-right:0em;
+}
+
+@media(min-width:1000px){
+    .block-wide{
+        margin:0rem 0em;
+        width:98rem;
+        height:36.9rem;
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.01);
+        border-radius: 1.4rem;
+        background-color: white;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        &-image{
+            margin-top: 0em;
+            margin-right: 4rem;
+        }
+        button{
+            margin-top:0em;
+            margin-left:2rem
+        }
+        &-text{
+            padding:0em 0em;
+        }
+        h1{   
+            letter-spacing: .02rem;
+            word-spacing: .29rem;
+            width: 44.5rem;
+            margin-bottom: 1rem;
+            color: #180624;
+            font-family: $primary-font;
+            font-size: 2.8rem;
+            padding-left:2rem;
+            font-weight: bold;
+            line-height:3.8rem;       
+        }
+        span{
+            padding-left:2rem;
+        }
+        .purple-wide-image{
+            padding-right: .3rem; 
+        }
+    }
+}
+
+
+@media(min-width:1300px){
+.block-wide{
+    margin:0rem 0em;
+    width:94rem;
+    height:36.9rem;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.01);
+    border-radius: 1.4rem;
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+&-image{
+    margin-top: 0em;
+    margin-right: 0rem;
+}
+button{
+    margin-top:0em;
+    margin-left:2rem
+}
+&-text{
+    padding:0em 0em;
+}
+h1{   
+    letter-spacing: .02rem;
+    word-spacing: .29rem;
+    width: 44.5rem;
+    margin-bottom: 1rem;
+    color: #180624;
+    font-family: $primary-font;
+    font-size: 2.8rem;
+    padding-left:2rem;
+    font-weight: bold;
+    line-height:3.8rem;       
+}
+span{
+    padding-left:2rem;
+}
+.purple-wide-image{
+    padding-right: .3rem; 
+}
+}
+}
+
+
+
+
+
+
+
+
+

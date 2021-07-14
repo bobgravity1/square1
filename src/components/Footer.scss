@@ -1,0 +1,99 @@
+.footer{
+    background-color: $color-purple-dark;
+    font-family: $primary-font;
+    color:white;
+    padding:3.95rem 0rem 6.2rem 1.5rem;
+    h1{color:white}
+    &-logo{
+        margin-bottom: 2.99rem;
+    }
+    &-text-desktop{
+        display:none;
+    }
+    &-social{
+        margin-bottom:2rem;
+        display:flex;
+        align-items: center;
+        img{
+            margin-right: 3rem;
+        }
+    }
+    &-links{
+        font-weight: bold;
+        h1{
+            font-size:1.6rem;
+            line-height:24px;
+        }
+        li{
+            margin-top: 1rem;
+            font-size:1.4rem;
+            line-height:22px;
+        }
+        section{
+            padding-top:3rem;
+        }
+    }
+    &-podcasts{
+        display:flex;
+        &> *:first-child{
+            margin-right:4.7rem;
+        }
+    }
+    &-text-mobile{
+        margin-top:3rem;
+        font-size:1.4rem;
+        max-width:34.5rem;
+    }
+    }
+
+@media (min-width:900px){
+    .footer{    
+        padding:0rem 0rem 2.9rem 1rem;
+        &-container{
+            margin:0 auto; 
+            max-width:126rem; 
+            display:flex;
+        }           
+        ul{
+            letter-spacing: .03rem;
+            display:flex;          
+        }
+        li{
+            width:165%;
+        }
+        section{
+            padding-right:12.4rem;
+        }
+        h1{
+            width:10.2rem;
+        }
+        &-podcasts{
+            & div:nth-of-type(2){
+                padding-top: 2.3rem;  
+                margin-left: -.4rem;  
+                margin-right: 5rem;       
+            }
+        }
+        &-text-desktop{
+            display:block;
+            margin-top:3rem;
+            font-size:1.4rem;
+            max-width:35.5rem;
+            line-height:2.3rem;
+            padding-bottom:6.2rem;
+        }
+        &-logo{
+            padding-top:2.95rem;
+            margin-bottom: -.5rem;
+          }
+        &-social{
+            margin-right: 12.6rem;
+            margin-bottom:0rem;
+            display:flex;
+            align-items: center;
+          }   
+        &-text-mobile{
+            display: none;
+          }   
+    } 
+}

@@ -1,0 +1,27 @@
+.section-article{
+    &-container{
+        margin:0rem 1.5rem;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+h1{
+    color:black
+}
+.ad-margin{
+    margin-top: 4rem;
+}
+
+
+@media(min-width:1300px){
+    .divide{
+        margin-bottom: 6.5rem;
+    }
+    .section-article{ 
+        &-container{ 
+            margin-right: 4rem;
+            max-width:90rem;    
+        }
+    }
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>388C47BB-7391-45ED-A049-D9B8F320485E</title>
+    <defs>
+        <circle id="path-1" cx="19" cy="19" r="19"></circle>
+        <filter x="-13.2%" y="-10.5%" width="126.3%" height="126.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.01 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="🏞️-UI-(Web)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-1562.000000, -3337.000000)">
+            <!-- <rect fill="#F8F8F8" x="0" y="0" width="1920" height="5697"></rect> -->
+            <g id="Entertainment" transform="translate(330.000000, 3327.000000)">
+                <g id="Custom-Button" transform="translate(1222.000000, 0.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#511378" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Icon" transform="translate(10.000000, 10.000000)" fill="#FFFFFF">
+                        <polygon id="_Icons/Material-Design-Icon-Pack/right-arrow-forward" points="9 -3.75000004e-08 7.42499999 1.57499997 13.725 7.875 -3.75000004e-08 7.875 -3.75000004e-08 10.125 13.725 10.125 7.42499999 16.425 9 18 18 9"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

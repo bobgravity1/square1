@@ -1,0 +1,63 @@
+.adfarm{
+  h1{
+      display:none;
+  }
+    display:flex;
+    justify-content: center;
+    margin-top: 2rem;
+    &-image{
+        height:27.5rem;
+        width:30rem;  
+        // small image exception on end of last page
+        &-small{
+            height: 96px;
+            width: 375px;
+            background-color: #EDEDED;
+            margin-bottom: 4rem;    
+            align-items: center;
+            justify-content: center;
+            display:flex;
+            flex-direction: column;
+            p{
+                color: #333330;
+                font-family: $secondary-font;
+                font-size: 1.2rem;
+                letter-spacing: 0;
+                line-height: 16px;
+            }
+        }   
+            &-image{
+                margin-top: 1rem;       
+                height: 5rem;
+                width: 32rem;  
+            }  
+    }
+}
+
+@media(min-width:1300px){
+    .adfarm{
+        display:block;
+        background-color:#EDEDED;
+        width:100vw;
+        height:13.4rem;
+        margin-top: 0rem;
+        h1{ 
+            display:block;
+            padding:1rem;
+            font-size:1.2rem;
+            text-align: center;
+            font-family:'Roboto';
+            color:#333330;
+        }
+        &-image{
+            width:72.9rem;
+            height:9rem;
+            &-container{
+                display:flex;
+                justify-content: center;
+            
+            }
+      }  
+    }
+    
+}

@@ -1,0 +1,17 @@
+.pagetwo{
+    &-flex{
+display:block;
+}
+}
+
+@media(min-width:1000px){ 
+    .pagetwo{      
+        &-flex{
+    display:flex;
+    justify-content: center;
+    }
+    }
+    .extended-margin{
+        margin-top: 2rem;
+    }
+}

@@ -1,0 +1,139 @@
+.navbar{
+    background-color: $color-purple; 
+    display:flex;
+    justify-content: space-between;  
+    &-container{
+        display:flex;    
+        width:100vw;
+        align-items: center;  
+        }
+    &-items{  
+        display: none;
+    }
+    &-search{
+        display:none;
+    }
+
+    .navbar-mobile-burger{
+        div{
+            background-color: white;
+            width:1.8rem;
+            height:.19rem;
+            margin:.32rem
+        }
+    }
+
+// mobile
+&-mobile{
+    &-container{
+        height:5rem;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        width:100vw;
+        margin:0 1.3rem;
+    }
+    &-mobile{
+        display:block;
+    }
+    &-search{
+        
+        display:block
+    }
+}
+    &-logo{
+        display:none;
+    }
+}
+.mobile-panel{
+        background-color:$color-purple;
+        display:flex;
+        color:white;
+        height:5rem;    
+        
+        
+    &-left{      
+        border:1px solid  #744293;
+        width:46vw; 
+        display:flex;
+        align-items: center;
+        border-left: none;
+        border-right: none;
+    }
+    &-right{    
+        border:1px solid#744293;
+        display:flex;
+        align-items: center;       
+        width:54vw; 
+        border-right: none;
+    }
+    &-play{
+        border-radius:100%;
+        margin-left:1.5rem;
+        margin-right:1.3rem;
+    
+    }
+    &-text{
+        font-family: $primary-font;
+        font-weight:bold;
+        p:first-of-type{
+            font-size:red;
+            font-size: 1rem;
+        }
+        p:last-of-type{
+           font-size:1.6rem
+        }
+    }
+}
+
+@media (min-width:1300px){
+.navbar{          
+    background-color: $color-purple; 
+    justify-content: center;  
+    height:7.4rem;  
+    &-container{
+        display:flex;    
+        max-width:125.42rem;         
+        align-items: center;
+        }
+    &-search{
+        display:block;
+        }
+    &-items{  
+        letter-spacing: 0;
+        font-weight:bold;
+        font-size:1.4rem; 
+        display:flex;
+        margin-right: 31.8rem;
+        width:67rem;
+        color:white;
+        }
+    &-logo{
+        margin-right: 11.70rem;
+        display:block
+        }
+li{
+letter-spacing: 0.03rem;
+display:inline-block;
+margin: 0em 1.26rem;
+font-family: $primary-font;
+list-style-type: none;
+    }
+// mobile
+
+&-mobile{
+    &-container{
+            display:none
+    }
+    &-search{
+            display:none;
+    }
+    &-logo{
+            display:none
+    }
+    }
+    } 
+.mobile-panel{
+     display:none
+    }
+    }

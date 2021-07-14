@@ -1,0 +1,20 @@
+.adfarm-small{
+    h1{
+        color: #333330;
+        font-family: $secondary-font;
+        font-size: 1.2rem;
+        letter-spacing: 0;
+        line-height: 1.6rem;
+        padding-top: 1rem;
+    }
+    &-container{
+        background-color: #EDEDED;
+        display:flex;
+        margin-bottom: 4rem;
+        padding-bottom: 1rem;
+        margin-top: 4rem;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

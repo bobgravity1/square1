@@ -1,0 +1,21 @@
+.ad-disney{
+    height:27.5rem;
+    width:30rem;
+    margin: 0 auto;  
+    img{
+        width:100%;
+    }
+}
+
+@media(min-width:1000px){
+    .ad-disney{
+       display:none
+    }
+}
+
+@media(min-width:1300px){
+    .ad-disney{
+        display:block;
+        margin: 0 0;
+    }
+}

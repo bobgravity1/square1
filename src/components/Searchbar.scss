@@ -1,0 +1,73 @@
+.open{
+    &:focus {
+        outline:none
+    }
+}
+.overlap{
+    display:flex;
+    align-items: center;
+    margin-top: 30vh;
+    flex-direction: column;
+    input{
+        color:white;
+        padding-left: 4.2rem;
+        width:35.5rem;
+        height:5.2rem;
+        border:0px;
+        background-color: #323F4B;
+        border-radius: .6rem;
+        &:focus {
+            outline: none;
+        }
+        &::placeholder{
+            color:white;
+            font-size:1.4rem
+        }
+    }
+    &:focus {
+        outline:none
+    }
+    img{
+        color:white;
+        width:1.8rem;
+        position:relative;
+        bottom:3.5rem;
+        right:15.5rem
+    } 
+    button{
+        width:35.5rem;
+        border-radius:0px 5px 5px 0px;
+        border:none;
+        height:5.2rem;
+        background-color: $color-purple;
+        color:white;  
+    }
+}
+
+@media(min-width:1000px){
+.overlap{
+    display:flex;
+    margin-top: 30vh;
+    justify-content: center;
+    flex-direction: row;
+    img{
+        position:relative;
+        right:34.2rem;
+        top:0rem;
+        width:1.4rem;
+    }
+    button{
+        width:9.7rem;
+        border-radius:0px 5px 5px 0px;
+        border:none;
+        height:5.2rem;
+        background-color: $color-purple;
+        color:white;   
+        position:relative;
+        right: 5rem;
+    }
+    input{
+        padding-left: 3.8rem;
+    }
+    }
+}

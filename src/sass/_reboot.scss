@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    list-style-type: none;
+    
+  }
+
+// NOTE: all fonts are recalibrated with 10px standard.
+// 1rem = 10px; (media queries adjust this)
+html {
+  font-size: 10px;
+}
+*{
+  text-decoration: none;
+}
+div{
+  cursor:pointer;
+}
+
+.c{
+  background-color: magenta;
+}
+.desktop{
+    display:none
+}
+.mobile{
+    display:block;
+    margin-bottom: 3rem;
+}
+
+@media(min-width:1300px){
+  .desktop{
+      display:block
+  }
+  .mobile{
+      display:none;
+      margin-bottom: 3rem;
+  }
+}
+

@@ -1,0 +1,99 @@
+.position{
+     position:relative;
+     left:1rem;
+}
+.section-news{
+margin:0em 2rem;
+display:flex;
+flex-direction: column;
+align-items: center;
+&-desktop{
+        display:none;
+}
+&-header{
+        display:flex;
+        margin-top:4rem;
+        margin-bottom: 1rem;
+}
+    &-title{
+        padding-right: 23rem;
+        font-family: $primary-font;
+        font-size:2.8rem;  
+    }
+  
+}
+@media(min-width:1000px){
+        .section-news{
+                display:block;
+                max-width:990rem;
+                margin:0 auto;
+            &-title{
+                font-family: $primary-font;
+                font-size:2.8rem;
+                width:80rem;
+                margin-bottom: 3rem;          
+                padding-right: 0.4rem;
+            }
+            &-container{    
+                flex-wrap: wrap;
+                justify-content: space-around;
+                display:flex;
+                flex-direction:row;
+            }
+            &-header{
+                align-items: flex-start;
+                padding-left: 4rem;
+                padding-right: 4rem;
+                margin-top:5.6rem;
+                display:flex;
+                margin-bottom: 0rem;
+            }
+        }
+}
+
+@media(min-width:1300px){
+        .position{
+                position:relative;
+                left:0rem;
+           }
+        .section-news{
+                display:block;
+                max-width:126.3rem;
+                margin:0 auto;
+            &-title{
+                font-family: $primary-font;
+                font-size:2.8rem;
+               
+                margin-bottom: 3rem;          
+                padding-right: 99.4rem;
+            }
+            &-container{
+                
+                flex-wrap: wrap;
+                justify-content: space-between;
+                display:flex;
+            }
+            &-header{
+                align-items: flex-start;
+                padding-left: .4rem;
+                padding-right:0rem;
+                margin-top:5.6rem;
+                display:flex;
+                margin-bottom: 0rem;
+            }
+            hr{
+                margin:'0 auto';
+                height:'.2rem';
+                max-width:'126rem';
+                color:'#CBD2D9';
+                margin-top:5rem;
+        }
+        }
+     
+        .p{
+                margin-top: 2rem;
+        }
+        .margin{
+                margin-top: 1rem;
+        }    
+}

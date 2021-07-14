@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>B51DA7EC-8AD0-446C-8873-7AE6BDE98541</title>
+    <g id="🏞️-UI-(Web)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage---Mobile" transform="translate(-13.000000, -16.000000)">
+            <rect fill="#F8F8F8" x="0" y="0" width="375" height="9877"></rect>
+            <g id="16.Navigation/Mobile/Default" transform="translate(0.000000, -3.000000)">
+                <rect id="Background" fill="#511378" x="0" y="3" width="375" height="50"></rect>
+                <g id="Icon" transform="translate(13.000000, 19.000000)" fill="#FFFFFF">
+                    <path d="M-3.75000004e-08,15 L18,15 L18,13 L-3.75000004e-08,13 L-3.75000004e-08,15 Z M-3.75000004e-08,10 L18,10 L18,8 L-3.75000004e-08,8 L-3.75000004e-08,10 Z M-3.75000004e-08,2.99999998 L-3.75000004e-08,4.99999997 L18,4.99999997 L18,2.99999998 L-3.75000004e-08,2.99999998 Z" id="_Icons/Material-Design-Icon-Pack/menu-button"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
