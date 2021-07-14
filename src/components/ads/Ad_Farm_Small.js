@@ -13,7 +13,7 @@ const Ad_Farm_Small = ({same}) => {
             <h1>ADVERTISEMENT</h1>
             <picture >
                     <source srcSet={adfarm} alt='kitchen picture' 
-                    media="(min-width: 1000px)" />
+                    media="(min-width: 1300px)" />
                     <div className="adfarm-small-image">                
                     <img className='adfarm-image adfarm-image-image' src={adfarmsmall} alt='farm ad'/>
                     </div> 
