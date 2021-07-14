@@ -11,4 +11,4 @@ to run this project on your local server please follow these steps:
 
 5) run "npm install" to install all packages and plugins (including sass compiler/babel)
 
-6) run "npm start". default local host should be 'http://localhost:3001/' unless this port is currently being used.
+6) run "npm start". default local host should be 'http://localhost:3000/' unless this port is currently being used.
