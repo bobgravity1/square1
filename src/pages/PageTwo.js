@@ -23,7 +23,7 @@ const PageTwo= () => {
             <Ad_Marvel />
             <div className='pagetwo-flex'>
             <Section_Article />
-            <div className='extended-margin'>
+            <div className='x extended-margin'>
             <Section_Extended  />
             </div>
             </div>
