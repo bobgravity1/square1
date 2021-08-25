@@ -40,7 +40,7 @@ const PageOne = () => {
                 <Ad_Farm /> 
             </div>    
                 <Section_Podcasts />  
-                <div className='mobile'>
+                <div className='x mobile'>
                 <Ad_Farm_Small />
                 </div>
             </Link>      
